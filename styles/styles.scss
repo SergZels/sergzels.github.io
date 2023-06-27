@@ -180,6 +180,12 @@ section {
                     filter: grayscale(0);
                 }
             }
+            /* Адаптивність для мобільних пристроїв */
+        @media (max-width: 768px) {
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
         }
     }
 
