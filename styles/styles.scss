@@ -166,7 +166,7 @@ section {
         .image {
             border-radius: var(--br-sm-2);
             height: 90%;
-            width: 68%;
+            width: 88%;
             margin-left: 4rem;
             background-color: var(--color-black);
             transition: all .4s ease-in-out;
@@ -180,12 +180,7 @@ section {
                     filter: grayscale(0);
                 }
             }
-            /* Адаптивність для мобільних пристроїв */
-        @media (max-width: 768px) {
-        height: 100%;
-        width: 100%;
-        margin-left: 0;
-    }
+           
         }
     }
 
